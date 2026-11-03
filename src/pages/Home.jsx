@@ -7,6 +7,7 @@ export default function Home({ session }) {
   const [loading, setLoading] = useState(true);
   const navigate = useNavigate(); // <-- NEW
 
+  
   useEffect(() => {
         async function loadModules() {
       try {
